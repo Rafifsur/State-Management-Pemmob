@@ -1,16 +1,15 @@
 # tugas_pemmob
 
-A new Flutter project.
+Nama : Rafif Surya Murtadha
+NIm : H1D023008
+Pemrograman Mobile A
 
-## Getting Started
+![WhatsApp Image 2025-11-03 at 21 40 23_f2203350](https://github.com/user-attachments/assets/eab6d80a-d5b0-407d-b44b-3a06b58e578d)
 
-This project is a starting point for a Flutter application.
+![WhatsApp Image 2025-11-03 at 21 40 34_1317f616](https://github.com/user-attachments/assets/856428e0-ffcc-407f-a0dc-ad2c8fbdd728)
 
-A few resources to get you started if this is your first Flutter project:
+![WhatsApp Image 2025-11-03 at 21 40 49_b7c05d3c](https://github.com/user-attachments/assets/d5524ff4-4171-402b-9826-c79829bfbd50)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![WhatsApp Image 2025-11-03 at 21 41 01_ce7fe14d](https://github.com/user-attachments/assets/7ea15aad-bdf5-4b93-abed-ef1a8049d38b)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
