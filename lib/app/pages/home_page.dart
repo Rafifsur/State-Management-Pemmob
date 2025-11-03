@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import '../routes/app_routes.dart';
+import '../widgets/custom_drawer.dart';
+import '../widgets/custom_bottom_nav.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -9,34 +9,28 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Halaman Utama'),
+        title: const Text('Home Page'),
         backgroundColor: Colors.blueAccent,
-        centerTitle: true,
-      ),
-      body: Center(
+      ), // AppBar
+      drawer: CustomDrawer(),
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
-              'State Management Flutter (GetX)',
+            Icon(Icons.home, size: 100, color: Colors.blueAccent),
+            SizedBox(height: 20),
+            Text(
+              'Selamat Datang di Home Page!',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 10),
-            const Text(
-              'NIM: H1D023008',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 30),
-            ElevatedButton(
-              onPressed: () => Get.toNamed(AppRoutes.about),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blueAccent,
-              ),
-              child: const Text('Pergi ke Halaman About'),
-            ),
+            ), // Text
+            Text(
+              'Nama : Rafif Surya Murtadha\nNIM : H1D023008',
+              style: TextStyle(fontSize: 16),
+            ), // Text
           ],
-        ),
-      ),
-    );
+        ), // Column
+      ), // Center
+      bottomNavigationBar:  CustomBottomNav(),
+    ); // Scaffold
   }
 }

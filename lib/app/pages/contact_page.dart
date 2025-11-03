@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import '../widgets/custom_drawer.dart';
 import '../widgets/custom_bottom_nav.dart';
 
-class AboutPage extends StatelessWidget {
-  const AboutPage({super.key});
+class ContactPage extends StatelessWidget {
+  const ContactPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About Page'),
+        title: const Text('Contact Page'),
         backgroundColor: Colors.blueAccent,
       ), // AppBar
       drawer: CustomDrawer(),
@@ -17,16 +17,16 @@ class AboutPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.info, size: 100, color: Colors.blueAccent),
+            Icon(Icons.contact_mail, size: 100, color: Colors.blueAccent),
             SizedBox(height: 20),
             Text(
-              'Tentang Aplikasi Ini',
+              'Hubungi Kami',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ), // Text
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
               child: Text(
-                'Aplikasi ini dibuat menggunakan Flutter + GetX untuk contoh navigasi sederhana tanpa index.\n Nama : Rafif Surya Murtadha\nNIM : H1D023008',
+                'Email: rafifsuryamurtadha99@gmail.com\nTelepon: +62 821-3591-2367',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16),
               ), // Text
